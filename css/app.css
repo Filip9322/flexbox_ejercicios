@@ -38,7 +38,17 @@ body{
   flex-direction: column;
   justify-content: space-between;
 }
-
+.cara-5 {
+  justify-content: space-between;
+}
+.cara-5 .columna{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cara-5 .columna:nth-child(odd){
+  justify-content: space-between;
+}
 .punto {
   width: 24px;
   height: 24px;
